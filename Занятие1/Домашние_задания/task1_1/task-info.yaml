@@ -1,0 +1,26 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  text: |
+    if __name__ == "__main__":
+        # Write your solution here
+        pass
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  learner_created: false
+status: Failed
+feedback:
+  message: Incorrect
+  time: Wed, 10 Nov 2021 17:55:33 UTC
+  actual: |
+    10 1
+    11 2
+    12 3
+    13 4
+    14 5
+record: -1
