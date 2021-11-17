@@ -1,12 +1,15 @@
 def min_len_check(fn):
-    # TODO записать обертку для исходной функции
-
+    def wrapper(arq):
+        if len(arq) < 10:
+            raise ValueError# TODO записать обертку для исходной функции
+        result = fn(arq)
+        return result
     return wrapper
 
 
-# TODO задекорировать функцию
+@min_len_check# TODO задекорировать функцию
 def some_func(str_arg: str):
-    ...
+    print(str_arg)
 
 
 if __name__ == "__main__":
