@@ -41,8 +41,11 @@ files:
 
         print(task(pts))
   learner_created: false
+- name: glkdgkk.py
+  visible: true
+  learner_created: true
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 10 Nov 2021 15:33:00 UTC
+  time: Fri, 12 Nov 2021 18:22:49 UTC
 record: -1

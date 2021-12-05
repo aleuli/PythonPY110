@@ -3,14 +3,14 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 45
-    length: 98
+  - offset: 27
+    length: 44
     placeholder_text: '# TODO записать обертку для исходной функции'
     initial_state:
       length: 44
       offset: 27
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       def wrapper(str_arg):
@@ -19,14 +19,14 @@ files:
 
               result = fn(str_arg)
               return result
-  - offset: 212
-    length: 43
+  - offset: 94
+    length: 29
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
       length: 29
       offset: 94
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '@min_len_check'
   text: |
@@ -51,6 +51,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Wed, 17 Nov 2021 17:03:34 UTC
+  time: Thu, 18 Nov 2021 18:15:49 UTC
 record: -1
 post_submission_on_open: true

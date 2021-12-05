@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 70
-    length: 57
+    length: 203
     placeholder_text: '...  # TODO перезаписать содержимое одного файла в другой'
     initial_state:
       length: 57
       offset: 70
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       with open(INPUT_FILE, "r") as input_file:
               with open(OUTPUT_FILE, "w") as output_file:
@@ -63,5 +63,15 @@ files:
     TURQUOISE
     CYAN
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Sat, 27 Nov 2021 17:53:13 UTC
+  expected: |
+    GOLDENROD
+    PURPLE
+    SALMON
+    TURQUOISE
+    CYAN
+  actual: <no output>
 record: -1

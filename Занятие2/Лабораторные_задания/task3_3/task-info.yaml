@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 154
+    length: 184
     placeholder_text: |-
       def header_footer():  # TODO написать декоратор
           ...
@@ -47,5 +47,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 17 Nov 2021 17:18:20 UTC
+  time: Sat, 27 Nov 2021 17:01:49 UTC
 record: -1

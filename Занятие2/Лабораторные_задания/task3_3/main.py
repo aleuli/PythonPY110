@@ -1,7 +1,7 @@
 def header_footer(fn):  # TODO написать декоратор
-    def wrapper():
+    def wrapper(*arqs, **kwargs):
         print("========")
-        fn()
+        fn(*arqs, **kwargs)
         print("========")
     return wrapper
 
